@@ -12,7 +12,6 @@ Participant code : KSAT006ONL003
 
 Project Name : Assignment 03 - Mobile Testing : sample ecommerse Apk
 
-API Test : POST, GET, DELETE
 
 Number of Test Data :
 
