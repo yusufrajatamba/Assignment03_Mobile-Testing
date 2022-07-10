@@ -47,5 +47,7 @@ Mobile.tap(findTestObject('Checkout Page/btn_yes'), 10, FailureHandling.STOP_ON_
 
 Mobile.verifyElementText(findTestObject('Checkout Page/congratulation alert'), 'Congratulation', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(10)
+Mobile.delay(3)
+
+Mobile.tap(findTestObject('Checkout Page/btn okeee'), 5)
 

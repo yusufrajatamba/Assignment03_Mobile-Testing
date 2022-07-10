@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Mobile Testing/EC_Landing Page Check/EC_Landing Page Check'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Landing Page/btn_recent layout'), 5)
+
 Mobile.tap(findTestObject('Shop from landing page/LED tv_view'), 5)
 
 Mobile.verifyElementText(findTestObject('Shop from landing page/items'), '12 item(s)')

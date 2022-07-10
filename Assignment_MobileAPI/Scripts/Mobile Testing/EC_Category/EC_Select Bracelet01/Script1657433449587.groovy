@@ -17,29 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Shop from landing page/shopping cart view'), 5)
+Mobile.tap(findTestObject('Category/btn_category'), 5)
 
-Mobile.tap(findTestObject('Checkout Page/btn_checkout'), 5)
+Mobile.tap(findTestObject('Category/btn_Fashions'), 5)
 
-Mobile.verifyElementVisible(findTestObject('Checkout Page/frame layout'), 10)
+Mobile.tap(findTestObject('Category/bracelet'), 5)
 
-Mobile.selectListItemByLabel(findTestObject('Checkout Page/shipping'), 'TNT Express', 5)
+Mobile.tap(findTestObject('Category/btn add to chart'), 5)
 
-Mobile.hideKeyboard()
+Mobile.setText(findTestObject('Category/text for gold'), '1', 5)
 
-Mobile.setText(findTestObject('Checkout Page/comment area (1)'), 'Harap di Packing dengan Baik.', 10)
+Mobile.tap(findTestObject('Category/btn_add for gold'), 5)
 
-Mobile.hideKeyboard()
+Mobile.tap(findTestObject('Category/check out for gold'), 5)
 
-Mobile.tap(findTestObject('Checkout Page/btn_proses Checkout'), 5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Checkout Page/aleert proses checkout'), 30, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Checkout Page/btn_yes'), 10, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementText(findTestObject('Checkout Page/congratulation alert'), 'Congratulation', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(10)
-
-Mobile.tap(findTestObject('Checkout Page/btn okeee'), 5)
+WebUI.callTestCase(findTestCase('Mobile Testing/Parent Folder for Checkout Page/CheckoutPage_for All'), [:], FailureHandling.STOP_ON_FAILURE)
 
