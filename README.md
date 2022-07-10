@@ -17,29 +17,41 @@ API Test : POST, GET, DELETE
 Number of Test Data :
 
 ...........................................................
-      1. Profile 
-            - Edit Profile
-            - Verify Data Profile
-      2. Help
-            - Check Element and Body Content 
-      3. Category
-            - Shop From Fashion "Batik"
-            - Shop From Fashion "Gold ring"
-            -  Shop From Fashion "Panda Ransel"
-      4. Landing Page
-            - Check All element Landing Page
-      5. Shop From Landing page element
-            - Shop From Landing Page Element (image category Electronic and gadgets)
+1. Profile 
+      - Edit Profile
+      - Verify Data Profile
+2. Help
+      - Check Element and Body Content 
+3. Category
+      - Shop From Fashion "Batik"
+      - Shop From Fashion "Gold ring"
+      -  Shop From Fashion "Panda Ransel"
+4. Landing Page
+      - Check All element Landing Page
+5. Shop From Landing page element
+      - Shop From Landing Page Element (image category Electronic and gadgets)
 
 Test Suites :
 ..........................................................
-      1. Test Suites All Test 
-            - run Landing Page
-            - run Profile
-            - run Help
-            - run category 
-            - complete the purchase
-             
+ 1. Test Suites All Test 
+      - run Landing Page
+      - run Profile
+      - run Help
+      - run category 
+      - complete the purchase
+  2. Test Suites Profile and Recent 
+      - run Landing Page
+      - run Profile
+      - run recent
+      - complete the purchase
+  1. Test Suites Multiple Shop 
+      - run Landing Page
+      - run Shop From Fashion "Batik"01
+      - run Shop From Fashion "Gold"01
+      - run Profile
+      - run Shop From Fashion "panda"01
+      - complete the purchase
+
 **How To Uses :**
 
         1. Open Project With Katalon
