@@ -5,14 +5,11 @@ Explanation of QA Automation Testing WEB API Project
 
 Participant code : KSAT006ONL003
 
-<<<<<<< HEAD
-<p> Title : QA Enginer Junior :)
-link Project : https://github.com/yusufrajatamba/Assignment03_Mobile-Testing.git
-=======
+
 <p> Title : QA Enginer Junior :) </p>
 <p>link Project : https://github.com/yusufrajatamba/Assignment03_Mobile-Testing.git </p>
 
->>>>>>> 752efad877f419beeca255ef58a7f78aa8e0f8c2
+
 ----------------------------------------------------
 
 Project Name : Assignment 03 - Mobile Testing : sample ecommerse Apk
