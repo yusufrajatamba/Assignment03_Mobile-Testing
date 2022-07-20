@@ -1,58 +1,52 @@
 
-Explanation of QA Automation Testing WEB API Project
+Explanation of QA Automation Testing Mobile Testing
 ----------------------------------------------------
 <p>@uthor : Yusuf Raja Tamba </p>
 
 Participant code : KSAT006ONL003
 
-
 <p> Title : QA Enginer Junior :) </p>
-<p>link Project : https://github.com/yusufrajatamba/Assignment03_Mobile-Testing.git </p>
-
 
 ----------------------------------------------------
 
-Project Name : Assignment 03 - Mobile Testing : sample ecommerse Apk
+Project Name : Final Project - Mobile Testing : Demo.BANK.apk
 
 
 Number of Test Data :
 
 ...........................................................
-1. Profile 
-      - Edit Profile
-      - Verify Data Profile
-2. Help
-      - Check Element and Body Content 
-3. Category
-      - Shop From Fashion "Batik"
-      - Shop From Fashion "Gold ring"
-      -  Shop From Fashion "Panda Ransel"
-4. Landing Page
-      - Check All element Landing Page
-5. Shop From Landing page element
-      - Shop From Landing Page Element (image category Electronic and gadgets)
-
+ 1. USER ACCOUNT
+      - Register
+      - Login
+      - ADD Account
+      - Verify Account
+ 2. Transaction
+      - Make Deposit
+      - Make Transfer
+      - Make A Payment
+      - Check Detail Transaction Account
 Test Suites :
 ..........................................................
- 1. Test Suites All Test 
-      - run Landing Page
-      - run Profile
-      - run Help
-      - run category 
-      - complete the purchase
-  2. Test Suites Profile and Recent 
-      - run Landing Page
-      - run Profile
-      - run recent
-      - complete the purchase
-  1. Test Suites Multiple Shop 
-      - run Landing Page
-      - run Shop From Fashion "Batik"01
-      - run Shop From Fashion "Gold"01
-      - run Profile
-      - run Shop From Fashion "panda"01
-      - complete the purchase
-
+ 1. TS01_Add 1 User Account
+      - TC Register
+      - TC Login
+      - TC Add Account Data
+ 2. TS02_Add User Account From Data 
+      - TC Register
+      - TC Login
+      - TC Add Account Data 
+ 3. TS03_add data from excel 
+      - TC Register
+      - TC Login
+      - TC Add Account Data (Input from Excel)
+ 4. TS04_add data from excel and make transfer
+      - TC Register
+      - TC Login
+      - TC Add Account Data (Input from Excel)
+      - TC Make Transfer
+ 5. TS05_REgister and login
+      - TC Register
+      - TC Login
 **How To Uses :**
 
         1. Open Project With Katalon
